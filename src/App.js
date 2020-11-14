@@ -26,7 +26,6 @@ function App() {
       );
       const json = await response.json();
       if (json.cod === 200) {
-        console.log(json);
         setData(json);
         setSearchError(false);
         setUnits(units);
