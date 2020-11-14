@@ -4,8 +4,12 @@ function Weather(props) {
   const buildDisplay = (data, units) => {
     let elements = [];
     // main fields
-    if (data.name) {
-      elements.push(<h2 key={data.name}>{data.name}</h2>);
+    if (data.name && data.sys.country) {
+      elements.push(
+        <h2>
+          {data.name}, {data.sys.country}
+        </h2>
+      );
     }
     if (data.main.temp !== undefined) {
       const temp = data.main.temp.toFixed(0);
