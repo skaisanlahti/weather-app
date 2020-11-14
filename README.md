@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/skaisanlahti/weather-app">
+    <h3 align="center">Weather Now</h3>
+  </a>
 
-## Available Scripts
+  <p align="center">
+    Application for fetching the current weather using an API.
+    <br />
+    <a href="https://github.com/skaisanlahti/weather-app"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://skaisanlahti.github.io/weather-app/">View Demo</a>
+    ·
+    <a href="https://github.com/skaisanlahti/weather-app/issues">Report a Bug</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `yarn start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- ABOUT THE PROJECT -->
 
-### `yarn test`
+## About The Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is a practice project for doing API requests and using ReactJS for the front-end. It uses the Open Weather Map API for data. Additionally the app uses localStorage to save a search history of locations that can be clicked on for a quick search.
 
-### `yarn build`
+The project was made following along The Odin Project learning materials and the project instructions can be found [here](https://www.theodinproject.com/courses/javascript/lessons/weather-app).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [ReactJS](https://reactjs.org/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- GETTING STARTED -->
 
-### `yarn eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To get a local copy up and running follow these simple steps.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- npm
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+npm install npm@latest -g
+```
 
-## Learn More
+### Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Get a free [Open Weather Map API key](https://openweathermap.org/guide)
+2. Clone the weather-app
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+git clone https://github.com/skaisanlahti/weather-app.git
+```
 
-### Code Splitting
+3. Install NPM packages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+npm install
+```
 
-### Analyzing the Bundle Size
+4. Create .env file to project root and add your api key following REACT_APP_API_KEY=:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+REACT_APP_API_KEY=1234567890
+```
 
-### Making a Progressive Web App
+<!-- USAGE EXAMPLES -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- ROADMAP -->
 
-### Advanced Configuration
+<!-- CONTRIBUTING -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- LICENSE -->
 
-### Deployment
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Distributed under the MIT License. See `LICENSE` for more information.
 
-### `yarn build` fails to minify
+<!-- CONTACT -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+
+Sami Kaisanlahti - skaisanlahti@gmail.com
+
+Project Link: [https://github.com/skaisanlahti/weather-app](https://github.com/skaisanlahti/weather-app)
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+- [The Odin Project](https://www.theodinproject.com/)
+- [Open Weather Map](https://openweathermap.org/)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/skaisanlahti/weather-app.svg?style=flat-square
+[contributors-url]: https://github.com/skaisanlahti/weather-app/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/skaisanlahti/weather-app.svg?style=flat-square
+[forks-url]: https://github.com/skaisanlahti/weather-app/network/members
+[stars-shield]: https://img.shields.io/github/stars/skaisanlahti/weather-app.svg?style=flat-square
+[stars-url]: https://github.com/skaisanlahti/weather-app/stargazers
+[issues-shield]: https://img.shields.io/github/issues/skaisanlahti/weather-app.svg?style=flat-square
+[issues-url]: https://github.com/skaisanlahti/weather-app/issues
+[license-shield]: https://img.shields.io/github/license/skaisanlahti/weather-app.svg?style=flat-square
+[license-url]: https://github.com/skaisanlahti/weather-app/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/sami-kaisanlahti-6587031a6/
+[product-screenshot]: images/screenshot.png
